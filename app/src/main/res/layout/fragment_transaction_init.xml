@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/simplePadding"
+        android:text="@string/start_transaction" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/simplePadding"
+        android:gravity="start"
+        android:hint="@string/recipient_name"
+        android:imeOptions="actionNext"
+        android:inputType="textCapWords" />
+
+    <EditText
+        android:id="@+id/accountNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/simplePadding"
+        android:gravity="start"
+        android:hint="@string/account_number"
+        android:imeOptions="actionNext"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/simplePadding"
+        android:gravity="start"
+        android:hint="@string/amount"
+        android:imeOptions="actionNext"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/simplePadding"
+        android:layout_marginBottom="@dimen/triplePadding"
+        android:gravity="start"
+        android:hint="@string/comment"
+        android:imeOptions="actionDone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/simplePadding"
+            android:layout_weight="1"
+            android:text="@android:string/cancel" />
+
+        <Button
+            android:id="@+id/ok"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/simplePadding"
+            android:layout_weight="1"
+            android:enabled="false"
+            android:text="@android:string/ok" />
+    </LinearLayout>
+</LinearLayout>

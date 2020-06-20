@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/cardRadius"
+        android:id="@+id/cardView"
+        card_view:cardCornerRadius="@dimen/simplePadding"
+        card_view:contentPadding="@dimen/doublePadding"
+        android:elevation="5dp"
+        android:background="@color/cardview_light_background"
+        tools:ignore="PrivateResource">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <TextView
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:id="@+id/textViewState"
+                android:padding="@dimen/simplePadding"
+                android:layout_width="0dp"
+                card_view:layout_constraintStart_toStartOf="parent"
+                card_view:layout_constraintTop_toTopOf="parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                tools:text="[TestTitle]"
+                android:textStyle="bold"/>
+
+        <TextView
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:id="@+id/textViewHash"
+                android:padding="@dimen/simplePadding"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                card_view:layout_constraintEnd_toStartOf="@+id/buttonDelete"
+                card_view:layout_constraintStart_toStartOf="parent"
+                card_view:layout_constraintTop_toBottomOf="@+id/textViewState"
+                tools:text="[TestHash]"
+                android:gravity="start"/>
+
+        <TextView
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:id="@+id/textViewDate"
+                android:padding="@dimen/simplePadding"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                card_view:layout_constraintStart_toStartOf="parent"
+                card_view:layout_constraintTop_toBottomOf="@+id/textViewHash"
+                tools:text="[TestDate]"
+                android:gravity="start"/>
+
+        <ImageButton
+                android:id="@+id/buttonDelete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                card_view:layout_constraintTop_toTopOf="parent"
+                card_view:layout_constraintBottom_toBottomOf="parent"
+                card_view:layout_constraintEnd_toEndOf="parent"
+                android:background="@null"
+                android:src="@android:drawable/ic_menu_delete"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

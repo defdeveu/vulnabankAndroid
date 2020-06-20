@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/doublePadding">
+
+    <EditText
+        android:id="@+id/newPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/simplePadding"
+        android:gravity="start"
+        android:hint="@string/new_password"
+        android:imeOptions="actionNext"
+        android:inputType="textPassword"
+        android:maxLength="4" />
+
+    <EditText
+        android:id="@+id/reNewPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/simplePadding"
+        android:layout_marginBottom="@dimen/triplePadding"
+        android:gravity="start"
+        android:hint="@string/re_enter_password"
+        android:imeOptions="actionDone"
+        android:inputType="textPassword"
+        android:maxLength="4" />
+
+    <Button
+        android:id="@+id/buttonChangePassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/simplePadding"
+        android:enabled="false"
+        android:text="@string/change_password" />
+
+    <CheckBox
+        android:id="@+id/sslEnabled"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/simplePadding"
+        android:layout_marginTop="@dimen/triplePadding"
+        android:text="@string/tls_verification_enabled" />
+</LinearLayout>

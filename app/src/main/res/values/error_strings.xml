@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="no_internet">Please check your internet connection</string>
+    <string name="general">General error, please try again</string>
+    <string name="incorrect_re_password">Two passwords are not equals</string>
+    <string name="incorrect_password">Incorrect password</string>
+</resources>

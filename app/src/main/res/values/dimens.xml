@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="cardRadius">5dp</dimen>
+    <dimen name="simplePadding">8dp</dimen>
+    <dimen name="doublePadding">16dp</dimen>
+    <dimen name="triplePadding">24dp</dimen>
+    <dimen name="quadPadding">32dp</dimen>
+    <dimen name="design_fab_image_size" tools:override="true">36dp</dimen>
+</resources>
