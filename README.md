@@ -67,7 +67,7 @@ The application is the exam material for a ‘Secure Android Coding Training’.
     - Try to change password -> local validation displays if the new pins is not equals 
     - Click to *TLS verification enabled* checkbox -> if it is selected, the application communicates via https (application restart needed)
     
-[![social image](https://raw.githubusercontent.com/defdeveu/vulnabankAndroid/master/assets/science-in-hd-ujY5eND8k44-unsplash.crop.jpg)](https://github.com/defdeveu/vulnabankAndroid)
+[![social image](https://raw.githubusercontent.com/defdeveu/vulnabankAndroid/master/assets/science-in-hd-ujY5eND8k44-unsplash.ksenia-edit-a.jpg)](https://github.com/defdeveu/vulnabankAndroid)
 
 ### Credits
 * Created by Győző Füle
