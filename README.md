@@ -72,5 +72,5 @@ The application is the exam material for a ‘Secure Android Coding Training’.
 ### Credits
 * Created by Győző Füle
 * Specification by Zsombor Kovács
-* Photo by Science in HD on Unsplash. (Seamans Guard, Stagg Field, University of Chicago...Credit: U.S. Department of Energy, Historian's Office.)
+* Photo by 'Science in HD' used under the Unsplash License; derived work by Ksenia Kotelnikova; original: Seamans Guard, Stagg Field, University of Chicago...Credit: U.S. Department of Energy, Historian's Office
 
