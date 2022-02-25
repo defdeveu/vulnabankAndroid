@@ -8,7 +8,7 @@ The application is the exam material for a ‘Secure Android Coding Training’.
 - Kotlin
 - MVVM app architecture
 - Room database implementation [room](https://developer.android.com/topic/libraries/architecture/room)
-- encription library for room, if it is needed in the future [safeRoom](https://github.com/commonsguy/cwac-saferoom)
+- encryption library for room, if it is needed in the future [safeRoom](https://github.com/commonsguy/cwac-saferoom)
 - Dagger 2 dependency injection
 - retrofit for server communication
 - Lifecycle extensions
