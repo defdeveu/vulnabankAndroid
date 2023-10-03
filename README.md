@@ -1,7 +1,13 @@
 # VulnaBank
-### defdeveu. Android secdev exam app.
 
-The application is the exam material for a ‘Secure Android Coding Training’. The application has some serious security issues while providing ‘life like’ functionality (of a banking app).
+### defdev's Android development security exam app.
+This deliberately vulnerable application (DVA) is exam material used in the ‘Development security in Android' blue level course by Zsombor Kovács (huobb0). The application has some serious security issues while providing ‘life like’ functionality (of a conceptual banking app).
+
+### Build/Run
+Note, that the main purpose with this app is code review, so building and installation is possibly not the major concern in using it as a learning and practicing material.
+- git clone (the 'main' branch is sufficient for the purpose)
+- build and run
+This app till uses discontinued Kotlin synthetics for views which means that for successful builds the used project structure is API 30, Kotlin 1.7.21, Gradle plugin 7.4.2, Gradle 7.6.2, appcompat max 1.3.1, core-ktx max 1.6.0, material 1.4.0.
 
 ### Technology stack
 
@@ -13,15 +19,6 @@ The application is the exam material for a ‘Secure Android Coding Training’.
 - retrofit for server communication
 - Lifecycle extensions
 - Kotlin coroutines for background works
-
-### Supported devices
-
-- API 24 and over
-
-### Installation
-
-- clone git repository
-- build and run project
 
 ### Application overview
 
@@ -70,7 +67,7 @@ The application is the exam material for a ‘Secure Android Coding Training’.
 [![social image](https://raw.githubusercontent.com/defdeveu/vulnabankAndroid/master/assets/science-in-hd-ujY5eND8k44-unsplash.ksenia-edit-a.jpg)](https://github.com/defdeveu/vulnabankAndroid)
 
 ### Credits
-* Created by Győző Füle
-* Specification by Zsombor Kovács
+* Implemented by Ferenc Sági (sagifer)
+* Idea and specification by Zsombor Kovács (huobb0)
 * Photo by 'Science in HD' used under the Unsplash License; derived work by Ksenia Kotelnikova; original: Seamans Guard, Stagg Field, University of Chicago...Credit: U.S. Department of Energy, Historian's Office
 
