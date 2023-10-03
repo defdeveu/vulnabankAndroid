@@ -1,6 +1,6 @@
 # VulnaBank
 
-### defdev's Android development security exam app.
+### defdev's Android development security exam app
 This deliberately vulnerable application (DVA) is exam material used in the ‘Development security in Android' blue level course by Zsombor Kovács (huobb0). The application has some serious security issues while providing ‘life like’ functionality (of a conceptual banking app).
 
 ### Build/Run
