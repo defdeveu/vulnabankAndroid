@@ -7,7 +7,8 @@ This deliberately vulnerable application (DVA) is exam material used in the ‘D
 Note, that the main purpose with this app is code review, so building and installation is possibly not the major concern in using it as a learning and practicing material.
 - git clone (the 'main' branch is sufficient for the purpose)
 - build and run
-This app till uses discontinued Kotlin synthetics for views which means that for successful builds the used project structure is API 30, Kotlin 1.7.21, Gradle plugin 7.4.2, Gradle 7.6.2, appcompat max 1.3.1, core-ktx max 1.6.0, material 1.4.0.
+
+> This app still uses discontinued **Kotlin synthetics** for views which means that for successful builds the used project structure is target API 30, Java 11, Kotlin 1.7.21, Gradle plugin 7.4.2, Gradle 7.6.2, appcompat max 1.3.1, core-ktx max 1.6.0, material 1.4.0. Please ignore the suggestions to upgrade Gradle and deps versions.
 
 ### Technology stack
 
