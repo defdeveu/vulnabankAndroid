@@ -9,10 +9,10 @@ Note, that the main purpose with this app is code review, so building and instal
 - build and run
 
 WARNING: This app yet uses discontinued **Kotlin synthetics** and Dagger for views and Kotlin **1.7** which means that:
-* It's not compatible with JDK 21 and so the defaults of AS Ladybug+.
-* **Set/download JDK/JBR 17 in AS Setting > Build... > Build tools > Gradle / Gradle project!** 
-* Note that for successful builds the current project structure is target API 30, Java 17, Kotlin 1.7.21, kapt, appcompat max 1.3.1, core-ktx max 1.6.0, material 1.4.0. 
-* Ignore the suggestions to upgrade Gradle and deps versions (Gradle 7.6.2, Gradle plugin 7.4.2, ).
+* Currently this lab is not compatible with JDK 21 and so the defaults of AS Ladybug+.
+* Above Koala **set/download JDK/JBR 17** in AS Setting > Build... > Build tools > Gradle / Gradle project!
+* Note, that for successful builds the current project structure is target API 30, Java 17, Kotlin 1.7.21, kapt, appcompat max 1.3.1, core-ktx max 1.6.0, material 1.4.0.
+* Tested with Pixel 6 Pro API 31 emulator
 
 ### Technology stack
 
