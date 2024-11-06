@@ -8,7 +8,11 @@ Note, that the main purpose with this app is code review, so building and instal
 - git clone (the 'main' branch is sufficient for the purpose)
 - build and run
 
-> This app still uses discontinued **Kotlin synthetics** for views which means that for successful builds the used project structure is target API 30, Java 11, Kotlin 1.7.21, Gradle plugin 7.4.2, Gradle 7.6.2, appcompat max 1.3.1, core-ktx max 1.6.0, material 1.4.0. Please ignore the suggestions to upgrade Gradle and deps versions.
+WARNING: This app yet uses discontinued **Kotlin synthetics** and Dagger for views and Kotlin **1.7** which means that:
+* It's not compatible with JDK 21 and so the defaults of AS Ladybug+.
+* **Set/download JDK/JBR 17 in AS Setting > Build... > Build tools > Gradle / Gradle project!** 
+* Note that for successful builds the current project structure is target API 30, Java 17, Kotlin 1.7.21, kapt, appcompat max 1.3.1, core-ktx max 1.6.0, material 1.4.0. 
+* Ignore the suggestions to upgrade Gradle and deps versions (Gradle 7.6.2, Gradle plugin 7.4.2, ).
 
 ### Technology stack
 

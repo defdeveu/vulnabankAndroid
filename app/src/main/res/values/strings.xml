@@ -34,10 +34,10 @@
     <string name="tls_change_restart_notification">This setting require you to restart the application for its change to take effect.</string>
     <string name="application_version">Application version %s</string>
     <string name="contributors">Contributors</string>
-    <string name="copyright">Ⓒ defdeveu</string>
-    <string name="gyozo_fule">Gyozo Fule</string>
-    <string name="zsombor_kovacs">Zsombor Kovacs</string>
-    <string name="timur_krothko">Timur Krothko</string>
+    <string name="copyright">Ⓒ def.dev</string>
+    <string name="gyozo_fule">Győző Füle</string>
+    <string name="zsombor_kovacs">Zsombor Kovács</string>
+    <string name="timurxyz">Timur Khrotko</string>
     <string name="app_info">App info</string>
 
 

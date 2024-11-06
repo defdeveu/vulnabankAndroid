@@ -77,5 +77,5 @@
         android:gravity="center"
         android:textColor="@android:color/holo_blue_dark"
         android:layout_marginTop="@dimen/doublePadding"
-        android:text="@string/timur_krothko"/>
+        android:text="@string/timurxyz"/>
 </LinearLayout>
