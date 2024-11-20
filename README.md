@@ -75,4 +75,4 @@ WARNING: This app yet uses discontinued **Kotlin synthetics** and Dagger for vie
 * Implemented by Ferenc Sági (sagifer)
 * Idea and specification by Zsombor Kovács (huobb0)
 * Photo by 'Science in HD' used under the Unsplash License; derived work by Ksenia Kotelnikova; original: Seamans Guard, Stagg Field, University of Chicago...Credit: U.S. Department of Energy, Historian's Office
-
+* Fixed bugs on AndroidManifest.xml and TransactionInitDialogFragment.kt by Angga Arifandi (blackmenthor)

@@ -11,7 +11,12 @@ import android.view.ViewGroup
 import dagger.android.support.DaggerAppCompatDialogFragment
 import eu.defdev.vulnabank.R
 import eu.defdev.vulnabank.repository.transaction.TransactionRepository
-import kotlinx.android.synthetic.main.fragment_transaction_init.*
+import kotlinx.android.synthetic.main.fragment_transaction_init.accountNumber
+import kotlinx.android.synthetic.main.fragment_transaction_init.amount
+import kotlinx.android.synthetic.main.fragment_transaction_init.cancel
+import kotlinx.android.synthetic.main.fragment_transaction_init.comment
+import kotlinx.android.synthetic.main.fragment_transaction_init.name
+import kotlinx.android.synthetic.main.fragment_transaction_init.ok
 import javax.inject.Inject
 
 class TransactionInitDialogFragment: DaggerAppCompatDialogFragment() {
@@ -26,9 +31,10 @@ class TransactionInitDialogFragment: DaggerAppCompatDialogFragment() {
         super.onViewCreated(view, savedInstanceState)
 
         ok.setOnClickListener {
-            clearTexts()
             val dataIntent = Intent()
-            dataIntent.putExtra(INTENT_DATA, getStringContentOfTransaction())
+            val msg = getStringContentOfTransaction()
+            clearTexts()
+            dataIntent.putExtra(INTENT_DATA, msg)
             targetFragment?.onActivityResult(targetRequestCode, Activity.RESULT_OK, dataIntent)
             dismiss()
         }
@@ -51,12 +57,12 @@ class TransactionInitDialogFragment: DaggerAppCompatDialogFragment() {
         comment.text.clear()
     }
 
-    private fun getStringContentOfTransaction(): String =
-                "${name.text};" +
+    private fun getStringContentOfTransaction(): String {
+        return "${name.text};" +
                 "${accountNumber.text};" +
                 "${amount.text};" +
-                "${comment.text}"
-
+                "${comment.text}";
+    }
     private fun textChangeListener(action: () -> Unit) = object: TextWatcher {
         override fun afterTextChanged(p0: Editable?) {
             manageButtonState()
